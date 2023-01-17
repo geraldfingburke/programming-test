@@ -1,0 +1,58 @@
+#cube {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background: rgb(10,10,10);
+    background: linear-gradient(rgba(10,10,10,1) 0%, rgba(99,99,99,1) 48%, rgba(10,10,10,1) 100%);
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+#cube p {
+    position: relative;
+    top: 100px;
+}
+
+#triangle {
+    position: absolute;
+    left: 350px;
+    top: 600px;
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 300px solid rgb(255, 0, 0);
+    font-size: xx-large;
+    color: white;
+}
+
+#triangle p {
+    position: relative;
+    bottom: -200px;
+    left: -100px;
+    width: 300px;
+}
+
+#circle {
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: rgb(96,190,91);
+    background: radial-gradient(circle, rgba(96,190,91,1) 0%, rgba(30,103,26,1) 100%);
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+#circle p {
+    position: relative;
+    top: 100px;
+}
